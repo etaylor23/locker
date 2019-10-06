@@ -25,7 +25,6 @@ const loopThroughThousands = (number, fourth) => {
 	const end = start + 999;
 	const candidates = [];
 
-	console.log("Check numbers between ", start, " and ", end)
 	for (start; start <= end; start++) {
 		if (getDigit(1, start) === fourth) {
 			// Candidate is a third of fourth digit
